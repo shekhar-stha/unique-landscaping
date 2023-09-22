@@ -2,9 +2,17 @@ nav {
     z-index: 2;
     width: 100%;
     height: fit-content;
-
+    margin-top: 3rem;
     @media (max-width: 1200px) {
         padding: 16px 0;
+    }
+
+    .container{
+        @media (min-width: 1200px) {
+            background-color: $white;
+            padding: 0.6rem 0;
+            border-radius: 6px;
+        }
     }
 
     .navbar-nav {
@@ -18,13 +26,17 @@ nav {
         }
 
         .nav-link {
-            color: $white;
+            color: $dark;
             font-size: 16px;
             font-weight: 600;
             text-transform: uppercase;
             margin-right: 2rem;
             border-bottom: 4px solid transparent;
             transition: all 0.7s;
+
+            @media (max-width: 1200px) {
+                color: $dark;
+            }
 
             @media (max-width: 1400px) {
                 margin-right: 1rem;

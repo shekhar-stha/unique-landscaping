@@ -113,18 +113,12 @@ p {
 }
 
 .btn-danger {
-    background: hsla(354, 54%, 40%, 1);
-
-    background: linear-gradient(90deg, hsla(354, 54%, 40%, 1) 0%, hsla(212, 75%, 19%, 1) 100%);
-
-    background: -moz-linear-gradient(90deg, hsla(354, 54%, 40%, 1) 0%, hsla(212, 75%, 19%, 1) 100%);
-
-    background: -webkit-linear-gradient(90deg, hsla(354, 54%, 40%, 1) 0%, hsla(212, 75%, 19%, 1) 100%);
-
+    background-color: #0c2e55;
     color: $white;
 
     border: none;
     transition: all ease-in 0.5s;
+
     &:hover {
         color: $white;
         background: hsla(354, 54%, 40%, 1);
