@@ -53,6 +53,10 @@
         content: "";
         background: rgb(0, 0, 0);
         background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8240546218487395) 33%, rgba(0, 0, 0, 0.7484243697478992) 65%, rgba(0, 0, 0, 0.7120098039215687) 84%);
+        
+        // background: rgb(15,25,37);
+        // background: linear-gradient(180deg, rgba(15,25,37,1) 0%, rgba(15,25,37,0.8968837535014006) 33%, rgba(27,36,55,0.8604691876750701) 65%, rgba(15,25,37,0.70640756302521) 84%);
+
         width: 100%;
         height: 100%;
         top: 0;
@@ -646,11 +650,12 @@
     }
 
     h4 {
-        font-size: 28px;
+        font-size: 32px;
         font-weight: 600;
         position: relative;
         color: $white;
         z-index: 2 !important;
+        text-transform: capitalize;
     }
 }
 
@@ -904,10 +909,12 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     list-style-type: none;
+
     li {
         font-weight: 500;
         font-size: 18px;
         margin: 0 auto;
+
         &::before {
             font-family: "FontAwesome";
             content: "\f3c5";
