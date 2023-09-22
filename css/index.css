@@ -13451,7 +13451,7 @@ nav .navbar-nav .nav-link:hover {
   text-indent: -9999px;
 }
 .slick-dots li.slick-active button {
-  background-color: #0c2e55;
+  background-color: #9c2f3a;
   width: 2rem;
   border-radius: 20px;
 }
@@ -13483,7 +13483,7 @@ nav .navbar-nav .nav-link:hover {
   margin-top: -15px;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: #0c2e55;
+  background-color: #9c2f3a;
   border-radius: 50%;
   color: #fff;
   font-size: 1.1rem;
