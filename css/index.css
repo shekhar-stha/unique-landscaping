@@ -13147,7 +13147,7 @@ nav .navbar-nav .nav-link {
   }
 }
 nav .navbar-nav .nav-link:hover {
-  border-bottom: 4px solid #0c2e55;
+  border-bottom: 4px solid #fcfef7;
 }
 @media (max-width: 1400px) {
   nav .navbar-nav .nav-link {
@@ -13565,8 +13565,8 @@ nav .navbar-nav .nav-link:hover {
 .nav-hero::after {
   position: absolute;
   content: "";
-  background: rgb(61, 2, 8);
-  background: linear-gradient(180deg, rgb(61, 2, 8) 0%, rgba(62, 2, 8, 0.7568277311) 33%, rgba(61, 3, 9, 0.6027661064) 65%, rgba(88, 15, 22, 0.4991246499) 84%);
+  background: rgb(31, 1, 4);
+  background: linear-gradient(180deg, rgb(31, 1, 4) 0%, rgba(38, 0, 4, 0.8464635854) 33%, rgba(61, 3, 9, 0.6699929972) 65%, rgba(88, 15, 22, 0.4991246499) 84%);
   width: 100%;
   height: 100%;
   top: 0;
