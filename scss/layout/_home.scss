@@ -48,6 +48,18 @@
         height: auto;
     }
 
+    .hero-left{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .hero-right{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
     &::after {
         position: absolute;
         content: "";
@@ -60,8 +72,8 @@
         // background: rgb(61, 2, 8);
         // background: linear-gradient(180deg, rgba(61, 2, 8, 1) 0%, rgba(62, 2, 8, 0.756827731092437) 33%, rgba(61, 3, 9, 0.6027661064425771) 65%, rgba(88, 15, 22, 0.499124649859944) 84%);
 
-        background: rgb(31, 1, 4);
-        background: linear-gradient(180deg, rgba(31, 1, 4, 1) 0%, rgba(38, 0, 4, 0.8464635854341737) 33%, rgba(61, 3, 9, 0.6699929971988796) 65%, rgba(88, 15, 22, 0.499124649859944) 84%);
+        // background: rgb(31, 1, 4);
+        // background: linear-gradient(180deg, rgba(31, 1, 4, 1) 0%, rgba(38, 0, 4, 0.8464635854341737) 33%, rgba(61, 3, 9, 0.6699929971988796) 65%, rgba(88, 15, 22, 0.499124649859944) 84%);
 
 
         width: 100%;
