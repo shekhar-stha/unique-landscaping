@@ -313,6 +313,11 @@
                 right: inherit;
                 left: -2rem;
                 bottom: -2rem;
+
+                @media (max-width: 576px) {
+                    left: -0.5rem;
+                    bottom: -0.5rem;;
+                }
             }
         }
     }
@@ -325,6 +330,23 @@
                 right: inherit;
                 left: -2rem;
                 top: -2rem;
+                @media (max-width:576px) {
+                    background-color: none !important;
+                    width: 0% !important;
+                }
+            }
+
+            @media (max-width: 992px) {
+                margin-top: 2rem;
+            }
+
+            img{
+                @media (max-width:576px) {
+                    height: auto !important;
+                    max-height: 300px !important;
+                    object-fit: contain !important;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                }
             }
         }
     }
@@ -380,6 +402,11 @@
                 right: -2rem;
                 bottom: -2rem;
                 z-index: -1;
+
+                @media (max-width: 576px) {
+                    right: -0.5rem;
+                    bottom: -0.5rem;;
+                }
             }
         }
     }
